@@ -92,7 +92,7 @@ void syntax_checker(char string[]){
 
     // General Counters
 
-    current_line = 1;
+    // current_line = 1; Se revisará cómo marcar los errores por línea
     errors = 0;
     index = 0;
 
@@ -100,11 +100,11 @@ void syntax_checker(char string[]){
 
         // ------- Validate line number -------
 
-        if (string[index] == '\n'){
+        /* if (string[index] == '\n'){
 
             current_line++;
         
-        }
+        } */
 
         // ------- Validate double quotes -------
 
